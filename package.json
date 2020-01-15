@@ -1,0 +1,31 @@
+{
+  "name": "lc3-vm",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist/",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.1.0",
+    "jest": "^24.9.0",
+    "typescript": "^3.4.3"
+  },
+  "eslintConfig": {
+    "plugins": ["jest"],
+    "extends": [
+      "airbnb-base",
+      "plugin:jest/recommended",
+      "plugin:jest/style"
+    ],
+    "rules": {
+      "no-bitwise": "off"
+    }
+  }
+}

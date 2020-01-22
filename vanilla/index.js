@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const vm = require('./main');
+const vm = require('./vm');
 
 const filePath = './2048.obj';
 const obj = fs.readFileSync(filePath);
